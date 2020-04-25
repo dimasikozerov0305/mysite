@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">	
+	<title>Document</title>
+	<script type="text/javascript">
+  /* <![CDATA[ */
+   function externalLinks() {
+    links = document.getElementsByClassName("aaa");
+    for (i=0; i<links.length; i++) {
+      link = links[i];
+      if (link.getAttribute("href") && link.getAttribute("rel") == "external")
+      link.target = "_blank";
+    }
+   }
+   window.onload = externalLinks;
+  /* ]]> */ 
+ </script>
+</head>
+<body>
+	<header>
+		<div class="container1">
+			<div class="social">
+				<div class="social1">
+					<a class="aaa" href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fm.facebook.com%2Fdmitriy.senkiv.5%3Fref%3Dbookmarks" rel="external"><img class="social1" src="images/facebook.png"></a>
+					<a class="aaa" href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Fdmitriysenkiv%2F&cc_key=" rel="external"><img class="social1" src="images/instagram.png"></a>
+					<a class="aaa" href="https://vk.com/id192183779" rel="external"><img class="social1" src="images/pinterest.png"></a>
+				</div>
+			</div>
+			<div class="languages">
+				<ul>
+				<li class="en"><a href="indexEN.html">En</a></li>
+				<li class="ru"><a href="index.html">Ru</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header_burger">
+				<div class="burger_text">
+					<p>Художник, Мадина Павлюк</p>
+				</div>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+		<div class="container2">
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="painting.html">Живопись</a></li>
+						<li><a href="actions.html">События</a></li>
+						<li><a href="mass-media.html">СМИ</a></li>
+						<li><a href="biography.html">Биография</a></li>
+						<li><a href="kont.html">Контакты</a></li>
+					</ul>
+					<div class="container2_social">
+						<a class="aaa" href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fm.facebook.com%2Fdmitriy.senkiv.5%3Fref%3Dbookmarks" rel="external"><img class="social1" src="images/facebook.png"></a>
+						<a class="aaa" href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Fdmitriysenkiv%2F&cc_key=" rel="external"><img class="social1" src="images/instagram.png"></a>
+						<a class="aaa" href="https://vk.com/id192183779" rel="external"><img class="social1" src="images/pinterest.png"></a>
+					</div>
+					<div class="container2_languages">
+							<a href="indexEN.html">En</a>
+							<a href="index.html">Ru</a>
+					</div>
+				</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<div class="painting">
+			<div class="paint">Живопись</div>
+			<div class="img">
+				<div class="description">
+					<img src="images/photo_min/vertical/img1.jpg">
+					<p>Шамбалла</p>
+				</div>
+			</div>
+			<div class="img">
+				<div class="description">
+					<img src="images/photo_min/vertical/img2.jpg">
+					<p>63</p>
+				</div>
+			</div>
+			<div class="img">
+				<div class="description">
+					<img src="images/photo_min/vertical/img3.jpg">
+					<p>Камни</p>
+					</div>
+				</div>
+			<div class="img">
+				<div class="description">
+					<img src="images/photo_min/vertical/img4.jpg">
+					<p>Адам и Ева</p>
+				</div>
+			</div>
+		</div>
+		<div class="link">
+			<p><a href="painting.html">Галерея живописи</a></p>
+		</div>
+		<div class="empty">
+
+		</div>
+		<div id="contacts">
+			<div id="header1">
+				<p>Контакты</p>
+			</div>
+			<div id="information">
+				<div class="infa">
+					<p id="one">Мадина Павлюк,<br>Художник</p>
+					<br><br><br>
+					<p><h1>Телефон</h1></p>
+					<p><a id="number" href="">+79182971836</a></p><br><br>
+					<p>e-mail<a href="">art_madina@bk.ru</a></p><br><br>
+					<p>Галереи <br><a href="">Г. Феодосия, Ул. Галерейная 2</a></p>
+				</div>
+			</div>
+			<div id="reg">
+				<form action="reg.php" method="post">
+   <div class="content">
+				   	<div class="group">      
+				   	   <input type="text" name = "e-mail" required>
+				   	   <span class="barr"></span>
+				   	   <label>e-mail</label>
+				   	</div>
+					   	<div class="group">      
+					   	   <input type="text" name = "name" required>
+					   	   <span class="barr"></span>
+					   	   <label>Ваше имя</label>
+					   	</div>
+					   	<div class="group">      
+					   	   <input type="text" name = "message" required>
+					   	   <span class="barr"></span>
+					   	   <label>Сообщение</label>
+					   	   <input class = "submit" type="submit" name = "submit" value="Отправить">
+					   	</div>
+					   </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="js.js"></script>
+</body>
+</html>
